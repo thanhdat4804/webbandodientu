@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="08_ProductDetail.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="footer.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        footer
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .container1
+        {
+            width: 100%;
+            height: 404px;
+            background-color: rgb(25, 28, 31);
+            display: flex;
+            font-family: "Public Sans", sans-serif;
+            justify-content: center;
+            gap:90px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            padding-top: 60px;
+        }
+        .clicon,.dowload-app,.popular-tag
+        {
+            color: white;
+        }
+        .quick-link,.top-category
+        {
+            color: rgb(131, 142, 148);
+
+        }
+        .quick-link p,.top-category p
+        {
+            font-size: 11.5px;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+        .clicon p
+        {
+            color: rgb(131, 142, 148);
+            font-size: 12px;
+
+        }
+        .clicon a
+        {
+            color: white;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        h3{
+            font-weight: lighter;
+        }
+        .popular-tag div{
+            margin-bottom:  10px;
+           
+        }
+
+        .top-category h3,.dowload-app h3 ,.popular-tag h3,.quick-link h3
+        {
+            font-size: 12px;
+            color: white;
+            margin-bottom: 20px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .top-category p:last-child
+        {
+            color: rgb(235, 200, 12);
+            
+        }
+        .top-category p:last-child b
+        {
+           margin-right: 8px;
+            font-weight: lighter;
+        }
+        .top-category p:nth-child(5) span
+        {
+            
+            display: inline-block;
+            width: 17px;
+            height: 0;
+            border: 1px solid rgba(235, 200, 12, 1);
+            margin-right: 8px;
+            margin-bottom: 3px;
+        }
+        .clicon h1
+        {
+            font-size: 27px;
+            cursor: pointer;
+        }
+        .popular-tag button
+        {
+            background-color: rgba(25, 28, 31,1);
+            border: 1px solid rgb(37, 43, 46);
+            color: white;
+            border-radius: 2px;
+            padding: 6px 9px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .dowload-app button{
+            width: 140px;
+            height: 55px;
+            margin-bottom: 10px;
+            background-color: rgb(48, 54, 57);
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .dowload-app{
+            width: 90px;
+            
+        }
+        .container2
+        {
+            width: 100%;
+            position: absolute;
+            color: white;
+            bottom: 0;
+            height: 54px;
+            border: 1px solid #303639;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10.5px;
+            color: #ADB7BC;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="container1">
+            <div class="clicon">
+                <h1 style="display: flex;align-items: center;gap: 8px;margin-bottom: 20px;"><img src="./icon/Icon.png" alt=""> CLICON</h1>
+                <p style="line-height: 25px;">Customer Supports:<div style="font-size: 16px;margin-bottom: 10px;">(629)555-0129</div></p>
+                <p style="margin-bottom: 10px;line-height: 20px;" style="font-size: 13px;line-height: 20px;">4517 Washington Ave.<br> Manchester, Kentucky 39495</p>
+                <a href="#">info@kinbo.com</a>
+            </div>
+            <div class="top-category">
+                <h3>TOP CATEGORY</h3>
+                <p>Computer & Laptop</p>
+                <p>SmartPhone</p>
+                <p>Headphone</p>
+                <p style="color: white;"><span></span>Accessories</p>
+                <p>Camera & Photo</p>
+                <p>TV & Photo</p>
+                <p style="display: flex;align-items: center;"><b style="font-weight: 600;">Browse All Product</b> <img src="./icon/ArrowRight.png" alt=""></p>
+            </div>
+            <div class="quick-link">
+                <h3>QUICK LINK</h3>
+                <p>Shop Product</p>
+                <p>Shoping Cart</p>
+                <p>Wishlist</p>
+                <p>Compare</p>
+                <p>Track Order</p>
+                <p>Customer Help</p>
+                <p>About us</p>
+            </div>
+            <div class="dowload-app">
+                <h3>DOWLOAD APP</h3>
+                <button style="display: flex; gap: 10px;align-items: center;justify-content: center;">
+                    <img src="./icon/Icon=google-play 1.svg" alt="">
+                    <div style="display: flex;flex-direction: column;align-items: flex-start;gap: 5px;">
+                        <div style="font-size: 9px;">Get it now</div>
+                        <div style="font-size: 12px;">Google Play</div>
+                    </div>
+                    
+                </button>
+                <button style="display: flex; gap: 10px;align-items: center;">
+                    <img style="margin-left: 10px;" src="./icon/Apple---Negative 1.svg" alt="">
+                    <div style="display: flex;flex-direction: column;align-items: flex-start;gap: 5px;">
+                        <div style="font-size: 9px;">Get it now</div>
+                        <div style="font-size: 12px;">App Store</div>
+                    </div>
+                </button>
+            </div>
+            <div class="popular-tag">
+                <h3>POPULAR TAG</h3>
+                <div>
+                    <button>Game</button>
+                    <button>iPhone</button>
+                    <button>TV</button>
+                    <button>Asus Laptops</button>
+                </div>
+                <div>
+                    <button>Macbook</button>
+                    <button>SSD</button>
+                    <button style="background-color: rgb(48,54,57); border: 1px solid white;">Graphics Card</button>
+                </div>
+                <div>
+                    <button>Power Bank</button>
+                    <button>Smart TV</button>
+                    <button>Speaker</button>
+                </div>
+                <div>
+                    <button>Tablet</button>
+                    <button>Microwave</button>
+                    <button>Samsung</button>
+                </div>
+                
+
+            </div>
+            <div class="container2">
+                Kinbo - eCommerce Template © 2021. Design by Templatecookie
+            </div>
+        </div>
+       
+    </footer>
+</body>
+</html>
