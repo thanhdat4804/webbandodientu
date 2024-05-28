@@ -1,0 +1,466 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans";
+}
+.homepage{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 1,920px;
+    height: 1,822px;
+    
+
+
+}
+/* phần bên trái*/
+.dashboard{
+   
+    width:200px;
+    height: 300px;
+    border-radius: 4px;
+    border: 1px solid rgba(228, 231, 233, 1);
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
+    margin-top: 30px;
+}
+.dashboard ul li{
+    list-style: none;
+}
+.dashboard ul{
+    padding: 0;
+}
+.dashboard  ul li a{
+    text-decoration: none;
+    color:  rgba(95, 108, 114, 1);
+    padding-top: 10px;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    font-size: 10px;
+    font-family: "Public Sans";
+}
+.hover li a img{
+    width: 15px;
+    height: auto;
+    padding-right:10px ;
+   
+}
+.hover{
+padding-left: 20px;
+transition: background-color 0.3s ease;
+}
+.hover:hover{
+    background-color:  rgba(250, 130, 50, 1);
+    color: white;
+}
+.hover a:hover{
+    color: white;
+}
+.hover img{
+    transition: filter 0.5s ease;
+}
+.hover img:hover{
+    filter: brightness(0);
+}
+
+
+/* Phần bên phải */
+.top-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+  
+
+.left{
+    width: 250px;
+    height: 250px;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgba(228, 231, 233, 1);
+}
+.left .headingA p{
+    font-size: 10px;
+    font-weight: 580;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  rgba(228, 231, 233, 1);
+}
+.left .info .user img{
+     width: 36px;
+     height: auto;
+     padding-left: 20px;
+}
+.user .text-form{
+    padding-left: 70px;
+    margin-top: -50px;
+}
+.user .text-form .text-form1{
+    margin-top: -10px;
+}
+.fun-fact {
+    padding-left: 20px;
+}
+.fun-fact .sec-email{
+    margin-top:  10px;
+}
+.fun-fact .phone{
+    margin-top:  10px;
+}
+.buttonA #btna{
+    width: 120px;
+    height: 38px;
+    background-color: white;
+    color: rgba(45, 165, 243, 1);
+    font-family: "Public Sans";
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid rgba(45, 165, 243, 1);
+    border-radius: 2px 2px 2px 2px;
+   
+}
+.buttonA{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.mid{
+    width: 250px;
+    height: 250px;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgba(228, 231, 233, 1);
+}
+.mid .headingB p{
+    font-size: 10px;
+    font-weight: 580;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  rgba(228, 231, 233, 1);
+}
+.mid .name{
+    padding-left: 20px;
+}
+.mid .name .kevin{
+   font-size: 12px;
+   font-weight: 600;
+}
+.mid .name .phonenumber{
+    margin-top: -8px;
+}
+.mid .name .emailB{
+    margin-top: 4px;
+}
+ 
+.buttonB{
+    padding-left: 20px;
+    margin-top: 19px;
+}
+.buttonB #btnb{
+    width: 120px;
+    height: 38px;
+    background-color: white;
+    color: rgba(45, 165, 243, 1);
+    font-family: "Public Sans";
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid rgba(45, 165, 243, 1);
+    border-radius: 2px 2px 2px 2px;
+}
+
+.right{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.right1{
+    width: 250px;
+    height: 45px;
+    padding: 13px 13px 13px 13px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgba(234, 246, 254, 1);
+}
+
+.fact1{
+    padding-left: 50px;
+    margin-top: -50px;
+}
+
+.right2{
+    width: 250px;
+    height: 45px;
+    padding: 13px 13px 13px 13px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgba(255, 243, 235, 1);
+
+}
+.fact2{
+    padding-left: 50px;
+    margin-top: -50px;
+}
+
+.right3{
+    width: 250px;
+    height: 45px;
+    padding: 13px 13px 13px 13px;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgba(234, 247, 233, 1);
+
+}
+.fact3{
+    padding-left: 50px;
+    margin-top: -50px;
+}
+.mid-content{
+    width: 800px;
+    height: 280px;
+    border: 1px solid rgba(228, 231, 233, 1);
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid rgba(228, 231, 233, 1) ;
+}
+.payment .payment-option{
+    padding-left: 20px;
+}
+.payment .payment-option p{
+    font-size: 10px;
+    font-weight: 580;
+}
+.add-card{
+    padding-right: 20px;
+    
+    
+}
+#addCard{
+    background-color: white;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(250, 130, 50, 1);
+    border: 1px solid white;
+}
+#arrr{
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+
+.visa #visacard{
+    width: 250px;
+    height: 150px;
+    position: relative;
+    top: 20px;
+    
+}
+.visa #mastercard{
+    width: 250px;
+    height: 150px;
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+
+
+.options-container {
+    position: absolute;
+    width: 100px; /* Adjust the width as needed */
+    height: 60px;
+    background-color: white;
+    border: 1px solid rgba(228, 231, 233, 1);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.options-container button {
+    font-family: "Public Sans";
+    background-color: white;
+    color: rgba(95, 108, 114, 1);
+    border: 1px solid white;  
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.options-container button:hover {
+    background-color: #f0f0f0;
+}
+
+.bottom-content{
+    width: 800px;
+    height: 300px;
+    border: 1px solid rgba(228, 231, 233, 1);
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.recent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(228, 231, 233, 1) ;
+}
+.recent .recent-or{
+    padding-left: 20px;
+}
+.recent .recent-or p{
+    font-size: 10px;
+    font-weight: 580;
+}
+.recent .view1{
+    padding-right: 20px;
+}
+.recent .view1 #view{
+    background-color: white;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(250, 130, 50, 1);
+    border: 1px solid white;
+}
+.recent .view1  #ar{
+    position: relative;
+    left: 5px;
+    top: 4px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+   
+}
+.custom-table th, .custom-table td {
+    border: none;
+    padding: 6px;
+    text-align: center;
+}
+.custom-table thead {
+    background-color: #f2f2f2;
+}
+.browsing-history{
+   
+    height: 380px;
+    border: 1px solid rgba(228, 231, 233, 1);
+    border-radius: 4px;
+}
+.browsing-history{
+    margin-top: 45px;
+}
+.browsing-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(228, 231, 233, 1);
+}
+.browsing{
+    padding-left: 18px;
+}
+.browsing p{
+    font-size: 10px;
+    font-weight: 580;
+}
+.view2{
+    padding-right: 20px;
+}
+.view2 #viewa{
+    background-color: white;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(250, 130, 50, 1);
+    border: 1px solid white;
+}
+.view2 #arr{
+    position: relative;
+    left: 5px;
+    top: 4px;
+}
+
+
+.product-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; /* Cho phép các sản phẩm xuống dòng nếu không đủ không gian */
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid white; /* Đường viền mờ */
+    padding: 15px;
+    border-radius: 5px; /* Góc bo tròn cho các sản phẩm */
+    width: 200px; /* Chiều rộng cố định cho mỗi sản phẩm */
+    text-align: center; /* Căn giữa nội dung */
+    margin: 10px; /* Khoảng cách giữa các sản phẩm */
+   
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Khoảng cách giữa hình ảnh và văn bản */
+}
+
+
+
+
+
+
+
+.number-product {
+    position: relative;
+    bottom: 36px;
+    right: 13px;
+    color:  rgba(119, 135, 143, 1);
+    font-size: 10px;
+
+}
+.text-product {
+    position: relative;
+    right: 38px;
+}
+.text-product p{
+    font-size: 11px;
+    font-weight: 500;
+    position: relative;
+    bottom: 40px;
+}
+.price-product{
+    color: rgba(45, 165, 243, 1);
+    font-size: 11px;
+    font-weight: 500;
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+}
+.arrow{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+    
+}
+.arrow img{
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+
+
+
+
+
