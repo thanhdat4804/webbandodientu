@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="19_sign up.css" />
 
     <link rel="stylesheet" href="global2.css" />
@@ -20,30 +26,36 @@
             <input type="text" class="input-field" />
           </div>
           <div class="name">Password</div>
-          <div class="order-id">
-            <!-- <div class="input-field">
-              <div class="password1">8+ characters</div>
-              <img
-                class="regulareye-icon"
-                alt=""
-                src="./public/regulareye.svg"
-              />
-            </div> -->
-            <input type="password" class="input-field" />
-            <img class="regulareye-icon" src="./Eye.svg" alt="" />
+          <div class="pass1" style="position: relative">
+            <input type="password" placeholder="8+ characters" id="nhappass" />
+            <img
+              src="./Eye.svg"
+              style="
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                right: 20px;
+                top: 15px;
+              "
+              class="toggle-password"
+              id="toggleCurrentPassword"
+            />
           </div>
           <div class="name">Confirm Password</div>
-          <div class="order-id">
-            <!-- <div class="input-field">
-              <div class="password2">Password</div>
-              <img
-                class="regulareye-icon"
-                alt=""
-                src="./public/regulareye.svg"
-              />
-            </div> -->
-            <input type="password" class="input-field" />
-            <img class="regulareye-icon" src="./Eye.svg" alt="" />
+          <div class="pass1" style="position: relative">
+            <input type="password" id="nhappass" />
+            <img
+              src="./Eye.svg"
+              style="
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                right: 20px;
+                top: 15px;
+              "
+              class="toggle-password"
+              id="toggleCurrentPassword"
+            />
           </div>
           <div class="check-box">
             <div class="are-you-agree-container">
@@ -88,5 +100,6 @@
         </div>
       </div>
     </div>
+    <script src="../18_reset pass/18_script.js"></script>
   </body>
 </html>

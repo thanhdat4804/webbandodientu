@@ -1,3 +1,6 @@
+* {
+  font-family: "Public Sans", sans-serif;
+}
 .name {
   align-self: stretch;
   position: relative;
@@ -29,6 +32,13 @@
   justify-content: flex-start;
   gap: var(--gap-5xs);
   position: relative;
+}
+.pass1 input {
+  width: 340px;
+  height: 44px;
+  border-radius: 2px;
+  border: 1px solid rgba(228, 231, 233, 1);
+  padding-left: 15px;
 }
 .password1 {
   left: 16px;
