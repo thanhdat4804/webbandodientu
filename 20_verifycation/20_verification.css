@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.container {
+  width: 360px;
+}
+.nam-ultricies-lectus,
+.verify-your-email {
+  position: relative;
+  display: inline-block;
+}
+.verify-your-email {
+  line-height: 28px;
+  font-weight: 600;
+}
+.nam-ultricies-lectus {
+  font-size: var(--heading-07-size);
+  line-height: 20px;
+  color: var(--gray-600);
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: center;
+  font-size: var(--body-xl-600-size);
+}
+.resend-code,
+.verification-code {
+  position: relative;
+  line-height: 20px;
+}
+.resend-code {
+  font-weight: 500;
+  color: var(--secondary-500);
+}
+.verification-code-parent {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.email-address {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  line-height: 20px;
+  display: none;
+}
+.input-field {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  height: 44px;
+  color: var(--gray-500);
+  padding-left: 15px;
+}
+.order-id {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.label {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.regulararrowright-icon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.button,
+.email-verification {
+  box-sizing: border-box;
+  display: flex;
+}
+.button {
+  width: 360px;
+  border-radius: var(--br-11xs);
+  background-color: var(--primary-500);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  gap: var(--gap-5xs);
+  color: var(--gray-00);
+}
+.email-verification {
+  position: relative;
+  box-shadow: var(--dropdown-shadow);
+  border-radius: 4px;
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  width: 438px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px;
+  gap: 24px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

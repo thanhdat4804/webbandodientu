@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --heading-07: "Public Sans";
+
+  /* font sizes */
+  --heading-07-size: 14px;
+  --body-xl-600-size: 20px;
+
+  /* Colors */
+  --gray-00: #fff;
+  --gray-100: #e4e7e9;
+  --primary-500: #fa8232;
+  --gray-500: #77878f;
+  --gray-900: #191d1f;
+  --gray-600: #5f6c72;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+
+  /* Border radiuses */
+  --br-11xs: 2px;
+
+  /* Effects */
+  --dropdown-shadow: 0px 8px 40px rgba(0, 0, 0, 0.12);
+}
