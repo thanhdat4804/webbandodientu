@@ -4,6 +4,9 @@ body {
   align-items: center;
   height: 500px;
 }
+* {
+  font-family: "Public Sans", sans-serif;
+}
 .container {
   width: 360px;
 }

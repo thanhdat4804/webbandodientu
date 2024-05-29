@@ -1,3 +1,6 @@
+* {
+  font-family: "Public Sans", sans-serif;
+}
 .bg {
   position: absolute;
   height: 100%;
@@ -10,6 +13,13 @@
   background-color: var(--gray-00);
   border: 1px solid var(--gray-100);
   box-sizing: border-box;
+}
+.pass1 input {
+  width: 340px;
+  height: 44px;
+  border-radius: 2px;
+  border: 1px solid rgba(228, 231, 233, 1);
+  padding-left: 15px;
 }
 .email-address {
   align-self: stretch;

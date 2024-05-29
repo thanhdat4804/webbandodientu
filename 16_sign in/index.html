@@ -5,7 +5,13 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="index.css" />
-    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="login-parent">
@@ -30,13 +36,8 @@
               />
             </div> -->
 
-            <div class="fake">
-              <input
-                id="nhappass"
-                type="password"
-                class="input-field"
-                id="password"
-              />
+            <!-- <div class="fake">
+              <input id="nhappass" type="password" class="input-field" />
 
               <img
                 id="regulareye-icon"
@@ -44,16 +45,29 @@
                 class="toggle-password"
                 alt="showpassword"
               />
+            </div> -->
+            <div class="pass1" style="position: relative">
+              <input
+                type="password"
+                placeholder="8+ characters"
+                id="nhappass"
+              />
+              <img
+                src="../18_reset pass/Eye.svg"
+                style="
+                  width: 20px;
+                  height: auto;
+                  position: absolute;
+                  right: 20px;
+                  top: 15px;
+                "
+                class="toggle-password"
+                id="toggleCurrentPassword"
+              />
             </div>
+
             <!-- <script scr="script.js"></script> -->
-            <script>
-              $(".toggle-password").click(function () {
-                var input = $(".nhappass");
-                if (input.attr("type") === "password") {
-                  input.attr("type", "text");
-                }
-              });
-            </script>
+            <script src="../18_reset pass/18_script.js"></script>
           </div>
         </div>
         <div class="button">
