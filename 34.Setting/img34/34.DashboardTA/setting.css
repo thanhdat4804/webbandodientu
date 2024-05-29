@@ -465,3 +465,23 @@ button p{
   right: 30px;
   top: 3px;
 }
+body
+{
+    position: relative;
+    height: 2200px;
+    padding-top: 220px;
+}
+.header
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 230px;
+}
+.footer
+{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+}

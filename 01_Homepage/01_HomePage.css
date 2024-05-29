@@ -24,6 +24,7 @@ img
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 .container2
 {
@@ -990,4 +991,6 @@ iframe
     height: 230px;
     
 }
-
+a{
+    color: black;
+}
