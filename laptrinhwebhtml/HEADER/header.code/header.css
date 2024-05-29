@@ -293,7 +293,7 @@ header nav.mid .search-btn input[type="search"] {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #E4E7E9;
 }
 .bottom-right ul  {
     list-style: none;

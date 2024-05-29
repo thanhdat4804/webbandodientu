@@ -3,6 +3,9 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "Public Sans";
+    padding-top: 220px;
+    position: relative;
+    height: 2200px;
 }
 .homepage{
     display: flex;
