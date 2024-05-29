@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="login-parent">
+      <div class="login">
+        <div class="from">
+          <div class="order-id">
+            <div class="email-address">Email Address</div>
+            <input type="text" class="input-field" />
+          </div>
+
+          <div class="order-id">
+            <div class="heading">
+              <div class="password">Password</div>
+              <div class="forget-password">Forget Password</div>
+            </div>
+            <!-- <div class="input-field">
+              <div class="password1">Password</div>
+              <img
+                class="regulareye-icon"
+                alt=""
+                src="./public/regulareye.svg"
+              />
+            </div> -->
+
+            <!-- <div class="fake">
+              <input id="nhappass" type="password" class="input-field" />
+
+              <img
+                id="regulareye-icon"
+                src="./logo/Eye.svg"
+                class="toggle-password"
+                alt="showpassword"
+              />
+            </div> -->
+            <div class="pass1" style="position: relative">
+              <input
+                type="password"
+                placeholder="8+ characters"
+                id="nhappass"
+              />
+              <img
+                src="../18_reset pass/Eye.svg"
+                style="
+                  width: 20px;
+                  height: auto;
+                  position: absolute;
+                  right: 20px;
+                  top: 15px;
+                "
+                class="toggle-password"
+                id="toggleCurrentPassword"
+              />
+            </div>
+
+            <!-- <script scr="script.js"></script> -->
+            <script src="../18_reset pass/18_script.js"></script>
+          </div>
+        </div>
+        <div class="button">
+          <b class="label">Sign in</b>
+          <img class="regulararrowright-icon" alt="" src="./ArrowRight.png" />
+        </div>
+        <div class="or-login-with">
+          <div class="dont-have-account">
+            <div class="dont-have-account-child"></div>
+            <div class="label1">
+              <div class="password">or</div>
+            </div>
+          </div>
+          <div class="loginregister-with">
+            <div class="login-with-google">Login with Google</div>
+            <img class="google-icon" alt="" src="./logo/Google@3x.svg" />
+          </div>
+          <div class="loginregister-with">
+            <div class="login-with-apple">Login with Apple</div>
+            <img class="apple-icon" alt="" src="./logo/Apple.svg" />
+          </div>
+        </div>
+        <div class="login-child"></div>
+        <div class="tab">
+          <div class="tab1">
+            <div class="sign-in">Sign In</div>
+          </div>
+          <div class="tab2">
+            <div class="sign-in">Sign Up</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
